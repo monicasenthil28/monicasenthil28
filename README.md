@@ -14,6 +14,7 @@ I enjoy exploring AI/ML concepts, solving technical problems, and applying what 
 - 🧠 Completed an **Artificial Intelligence internship**
 - 📚 Focused on continuous learning through projects, certifications, and practical experimentation
 - 🤝 Interested in collaborative projects involving AI, data science, and intelligent systems
+- 💼 Full-Stack Web Development Intern at Softrate Technologies Tech Park
 
 ## 🛠️ Technical Skills
 
