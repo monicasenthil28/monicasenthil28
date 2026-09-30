@@ -15,6 +15,7 @@ I enjoy exploring AI/ML concepts, solving technical problems, and applying what 
 - 📚 Focused on continuous learning through projects, certifications, and practical experimentation
 - 🤝 Interested in collaborative projects involving AI, data science, and intelligent systems
 - 💼 Full-Stack Web Development Intern at Softrate Technologies Tech Park
+- 💼 Amogh info tech Full Stack Develeper Intern
 
 ## 🛠️ Technical Skills
 
