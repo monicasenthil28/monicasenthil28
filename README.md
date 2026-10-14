@@ -8,9 +8,8 @@
   <img src="https://vercel.app" width="100%" />
 </p>
 
-## Monica Senthilkumar
-
-**AI & Data Science Student | Machine Learning Enthusiast | Full Stack Developer**
+# Monica Senthilkumar
+### 🚀 AI & Data Science Student | Machine Learning Enthusiast | Full Stack Developer
 
 Building intelligent systems, machine learning pipelines, and responsive web applications.
 
