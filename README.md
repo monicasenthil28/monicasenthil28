@@ -22,18 +22,13 @@ Interested in machine learning, problem-solving, and applying technical skills t
 
 <div align="center">
 
-<img src="https://github-readme-activity-graph.vercel.app/graph?username=monicasenthil28&bg_color=0d1117&color=58a6ff&line=2ea043&point=3fb950&area=true&hide_border=true" width="95%" alt="Monica contribution graph" />
+<img src="./contrib-heatmap.svg" width="95%" alt="GitHub contribution graph" />
 
 <br><br>
 
-<img src="https://streak-stats.demolab.com?user=monicasenthil28&theme=github-dark&hide_border=true" width="60%" alt="Monica streak stats" />
-
-<br><br>
-
-<img src="https://github.com/monicasenthil28/monicasenthil28/blob/output/github-contribution-grid-snake-dark.svg" width="95%" alt="Snake animation" />
+<img src="https://raw.githubusercontent.com/monicasenthil28/monicasenthil28/output/github-contribution-grid-snake-dark.svg" width="95%" alt="Snake animation" />
 
 </div>
-
 ## About
 
 - Pursuing **B.Tech in Artificial Intelligence & Data Science**
