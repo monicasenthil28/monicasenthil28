@@ -60,8 +60,9 @@ An intelligent battery monitoring concept designed for electric vehicles to impr
 
 <div align="center">
 
-<!-- Snake contribution animation referencing your generated branch -->
+<!-- Snake contribution animation referencing your generated branch directly -->
 <img src="https://githubusercontent.com" alt="Snake animation" width="80%" />
+
 
 <p align="center">
   <b>✨ Learning • Building • Experimenting • Improving ✨</b>
