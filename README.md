@@ -30,6 +30,17 @@ Building intelligent systems, machine learning pipelines, and responsive web app
 </tr>
 </table>
 
+<table>
+<tr>
+<td valign="top" width="50%">
+  <img src="https://vercel.app" width="100%" alt="GitHub Stats" />
+</td>
+<td valign="top" width="50%">
+  <img src="https://herokuapp.com" width="100%" alt="GitHub Streak" />
+</td>
+</tr>
+</table>
+
 </div>
 
 ## About Me
