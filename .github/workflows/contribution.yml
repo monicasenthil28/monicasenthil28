@@ -1,0 +1,50 @@
+name: Generate Contribution Heatmap
+
+on:
+  schedule:
+    # Refresh every day at 00:30 UTC
+    - cron: "30 0 * * *"
+
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+concurrency:
+  group: contribution-heatmap
+  cancel-in-progress: true
+
+jobs:
+  generate:
+    runs-on: ubuntu-latest
+    timeout-minutes: 5
+
+    steps:
+      - name: Checkout profile repository
+        uses: actions/checkout@v4
+
+      - name: Setup Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+
+      - name: Generate Monica contribution heatmap
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+          GITHUB_USER: monicasenthil28
+        run: |
+          python scripts/generate_contrib_svg.py
+
+      - name: Commit updated heatmap
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+
+          git add contrib-heatmap.svg
+
+          if git diff --cached --quiet; then
+            echo "No contribution changes."
+          else
+            git commit -m "chore: refresh contribution heatmap"
+            git push
+          fi
