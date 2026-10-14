@@ -5,7 +5,7 @@
 <div align="center">
 
 <p align="center">
-  <img src="https://vercel.app" width="100%" />
+  <img src="https://vercel.app" width="100%" alt="Header Banner" />
 </p>
 
 ## Monica Senthilkumar
@@ -17,8 +17,19 @@ Building intelligent systems, machine learning pipelines, and responsive web app
 
 <br>
 
-<!-- animated contribution graph, refreshed daily by the workflow -->
-<img src="./contrib-heatmap.svg" width="860" alt="GitHub contribution graph" />
+<!-- GitHub Analytics section aligned neatly side-by-side using valid HTML inside the center tag -->
+<table border="0" width="100%">
+  <tr>
+    <td valign="top" width="50%">
+      <img src="https://vercel.app" width="100%" alt="GitHub Stats" />
+    </td>
+    <td valign="top" width="50%">
+      <img src="https://herokuapp.com" width="100%" alt="GitHub Streak" />
+    </td>
+  </tr>
+</table>
+
+</div>
 
 ## About Me
 
@@ -49,7 +60,7 @@ An intelligent battery monitoring concept designed for electric vehicles to impr
 
 <div align="center">
 
-<!-- Snake contribution animation -->
+<!-- Snake contribution animation referencing your generated branch -->
 <img src="https://githubusercontent.com" alt="Snake animation" width="80%" />
 
 <p align="center">
