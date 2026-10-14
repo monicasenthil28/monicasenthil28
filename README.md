@@ -18,13 +18,19 @@ Interested in machine learning, problem-solving, and applying technical skills t
 
 <br>
 
-<!-- GitHub commit/activity status -->
-<img src="https://github-readme-stats.vercel.app/api?username=monicasenthil28&show_icons=true&include_all_commits=true&count_private=true&hide_border=true" width="49%" alt="Monica GitHub stats" />
-<img src="https://streak-stats.demolab.com?user=monicasenthil28&hide_border=true" width="49%" alt="Monica GitHub streak" />
+## 📈 Contribution Activity
 
-<br>
+<div align="center">
 
-<img src="https://github-readme-activity-graph.vercel.app/graph?username=monicasenthil28&hide_border=true" width="98%" alt="Monica contribution activity graph" />
+<img src="https://github-readme-activity-graph.vercel.app/graph?username=monicasenthil28&bg_color=0d1117&color=58a6ff&line=2ea043&point=3fb950&area=true&hide_border=true" width="95%" alt="Monica contribution graph" />
+
+<br><br>
+
+<img src="https://streak-stats.demolab.com?user=monicasenthil28&theme=github-dark&hide_border=true" width="60%" alt="Monica streak stats" />
+
+<br><br>
+
+<img src="https://github.com/monicasenthil28/monicasenthil28/blob/output/github-contribution-grid-snake-dark.svg" width="95%" alt="Snake animation" />
 
 </div>
 
