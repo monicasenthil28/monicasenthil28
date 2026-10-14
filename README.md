@@ -26,11 +26,7 @@ Interested in machine learning, problem-solving, and applying technical skills t
 
 <br><br>
 
-<img
-  src="https://raw.githubusercontent.com/monicasenthil28/monicasenthil28/output/github-contribution-grid-snake-dark.svg"
-  width="95%"
-  alt="Monica contribution snake"
-/>
+<img src="https://raw.githubusercontent.com/monicasenthil28/monicasenthil28/output/github-contribution-grid-snake-dark.svg" width="95%" alt="Contribution snake" />
 
 </div>
 ## About
