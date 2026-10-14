@@ -1,38 +1,38 @@
 name: Generate Snake Animation
 
 on:
-  # Run automatically every 24 hours
   schedule:
-    - cron: "0 0 * * *" 
-  
-  # Allows you to manually trigger it from the Actions tab
+    - cron: "0 0 * * *"
+
   workflow_dispatch:
 
-  # Run on every push to the main branch
   push:
     branches:
-    - main
+      - main
+
+# Prevent two snake workflows from updating the output branch together
+concurrency:
+  group: contribution-snake
+  cancel-in-progress: true
 
 jobs:
   generate:
-    permissions: 
+    permissions:
       contents: write
+
     runs-on: ubuntu-latest
     timeout-minutes: 5
-    
+
     steps:
-      # Generates a snake game from a github user contributions graph, output a svg animation at <summary_out_path>
-      - name: generate github-contribution-grid-snake.svg
+      - name: Generate contribution snake
         uses: Platane/snk/svg-only@v3
         with:
-          github_user_name: ${{ github.repository_owner }}
+          github_user_name: monicasenthil28
           outputs: |
             dist/github-contribution-grid-snake.svg
             dist/github-contribution-grid-snake-dark.svg?palette=github-dark
-          
-      # Push the content of <build_dir> to a branch
-      # The content will be available at https://githubusercontent.com<user>/<repo>/<branch>/<path> before info or consumed by github page
-      - name: push github-contribution-grid-snake.svg to the output branch
+
+      - name: Push snake to output branch
         uses: crazy-max/ghaction-github-pages@v3.1.0
         with:
           target_branch: output
