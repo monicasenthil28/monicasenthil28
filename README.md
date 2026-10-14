@@ -8,8 +8,8 @@
   <img src="https://vercel.app" width="100%" />
 </p>
 
-# Monica Senthilkumar
-### 🚀 AI & Data Science Student | Machine Learning Enthusiast | Full Stack Developer
+## Monica Senthilkumar
+**🚀 AI & Data Science Student | Machine Learning Enthusiast | Full Stack Developer**
 
 Building intelligent systems, machine learning pipelines, and responsive web applications.
 
@@ -17,19 +17,8 @@ Building intelligent systems, machine learning pipelines, and responsive web app
 
 <br>
 
-<!-- GitHub Analytics section aligned neatly side-by-side -->
-<div align="center">
-  <table border="0">
-    <tr>
-      <td valign="top" width="50%">
-        <img src="https://vercel.app" width="100%" alt="GitHub Stats" />
-      </td>
-      <td valign="top" width="50%">
-        <img src="https://herokuapp.com" width="100%" alt="GitHub Streak" />
-      </td>
-    </tr>
-  </table>
-</div>
+<!-- animated contribution graph, refreshed daily by the workflow -->
+<img src="./contrib-heatmap.svg" width="860" alt="GitHub contribution graph" />
 
 ## About Me
 
